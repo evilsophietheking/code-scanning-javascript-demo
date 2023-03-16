@@ -1,9 +1,4 @@
-var test = require('tape')
-var rimraf = require('rimraf')
-var tar = require('../index')
-var path = require('path')
-var fs = require('fs')
-var os = require('os')
+
 
 var win32 = os.platform() === 'win32'
 
